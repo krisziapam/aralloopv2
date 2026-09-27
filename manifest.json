@@ -1,0 +1,16 @@
+{
+  "name": "AralLoop Campus",
+  "short_name": "AralLoop",
+  "description": "An online student learning, planner, project, and productivity PWA.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6f2e9",
+  "theme_color": "#7aa874",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "aralloop-campus",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AralLoop Campus web application with Supabase backend and Capacitor Android packaging.",
+  "scripts": {
+    "build:web": "node scripts/build-web.mjs",
+    "android:add": "npm run build:web && npx cap add android",
+    "android:sync": "npm run build:web && npx cap sync android",
+    "android:open": "npm run android:sync && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/core": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest"
+  }
+}
